@@ -1,0 +1,6 @@
+{
+  "name": "Snake Antivenom Predictor — South Asia",
+  "description": "Evidence-based decision support, classical ML snake classification, syndromic assessment, and regional antivenom efficacy intelligence for South Asia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

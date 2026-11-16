@@ -1,0 +1,6 @@
+{
+  "name": "Snake Antivenom Predictor & Clinical Decision Support",
+  "description": "Evidence-based clinical decision support, classical ML snake classification with abstention, 20WBCT syndromic triage, and regional antivenom efficacy intelligence for Pakistan and South Asia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
