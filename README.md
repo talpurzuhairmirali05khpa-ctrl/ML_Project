@@ -1,6 +1,6 @@
- # Snake Antivenom Predictor — South Asia
+ # Snake Antivenom Predictor
 
-An educational **decision-support prototype** for snakebite management in Pakistan and South Asia. It combines a trained image classifier (snake species identification), a bedside clinical triage engine (20WBCT-based), an antivenom catalog, a regional epidemiology dashboard, and a transparent model-evaluation page.
+An educational **decision-support prototype** for snakebite management in Pakistan. It combines a trained image classifier (snake species identification), a bedside clinical triage engine (20WBCT-based), an antivenom catalog, a regional epidemiology dashboard, and a transparent model-evaluation page.
 
 > ⚠️ **Not a medical device.** Antivenom decisions must always follow bedside clinical examination, the 20-minute whole-blood clotting test (20WBCT) and the national protocol (NIH Islamabad / WHO SEARO). Dose figures in this project must be verified against the official protocol before any real use.
 
@@ -17,7 +17,7 @@ An educational **decision-support prototype** for snakebite management in Pakist
 | **Regional Dashboard** | Epidemiology statistics and referral centres in Pakistan. |
 | **Model Evaluation** | Real held-out test results: confusion matrix, per-class precision/recall, triage matrix, rejection curve. |
 | **Gemini literature assistant (optional)** | Server-side Gemini consult with strict clinical safety prompt. Works only if `GEMINI_API_KEY` is set. |
-| **Languages** | English, Urdu (اردو) and Sindhi (سنڌي). |
+| **Languages** | English
 
 ---
 
@@ -127,7 +127,7 @@ npm start
 │   │   ├── trainedEval.json      # real held-out test metrics
 │   │   └── classicalModels.ts, featureExtractor.ts, benchmarkData.ts  # legacy / display
 │   ├── data/                     # species, antivenom, regional data
-│   ├── i18n/translations.ts      # English / Urdu / Sindhi
+│   ├── i18n/translations.ts      # English
 │   └── types/index.ts
 ├── tests/                        # system, regression, cnn, real-photos + fixtures
 └── tools/
